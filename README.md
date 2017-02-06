@@ -25,6 +25,10 @@ Location: SF
 - Manipulate linked lists.
 
 
+### Interview question
+
+What's the difference between a JavaScript array and a linked list?
+
 ## What are linked lists?
 
 ![linked list image from wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/640px-Singly-linked-list.svg.png)
