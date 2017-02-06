@@ -75,6 +75,20 @@ Creating a linked list is a bit like renting buildings all around the city, wher
 
 In our analogy, you delegate a lot! You would know the address of the headquarters (the head or first node of the linked list). In a singly linked list, every node stores a pointer that gives the memory address of the next node. This is like letting each building manager keep track of just their address and the address of the *next* building you own.  In a doubly linked list, each node has pointers to the *next* and the *previous* node.
 
+### Pros and Cons
+
+**Linked lists don't need to be resized with one giant block of memory;** they can grow with pointers to other parts of the computer's memory.  You don't have to find continuous free space.
+
+**It's easier to insert into the middle of a linked list**, because with an array you'd need to move every element after the insertion point over by one. It's easier with linked lists, as you'll see in the challenges.
+
+On the other hand...
+
+**You can't quickly access a particular node in a linked list, like you can with array indices.** You have to start with the head and move sequentially.
+
+**Linked lists take up a bit more space** because in addition to storing the actual data, you have to store the pointers.  (You have to hire building managers to keep track of where the next address is!)
+
+**It can take more time to access a full linked list,** because the data living in different places can't just be read as a continuous chunk.  You have to travel around the city to visit all of your buildings.
+
 ### Check for Understanding
 
 1. What is the "big o" time complexity of inserting a node into a linked list after a given node?
@@ -98,22 +112,6 @@ In our analogy, you delegate a lot! You would know the address of the headquarte
   </details>
 
 See [bigocheatsheet.com](http://bigocheatsheet.com/).
-
-### Pros and Cons
-
-**Linked lists don't need to be resized with one giant block of memory;** they can grow with pointers to other parts of the computer's memory.  You don't have to find continuous free space.
-
-**It's easier to insert into the middle of a linked list**, because with an array you'd need to move every element after the insertion point over by one. It's easier with linked lists, as you'll see in the challenges.
-
-On the other hand...
-
-**You can't quickly access a particular node in a linked list, like you can with array indices.** You have to start with the head and move sequentially.
-
-**Linked lists take up a bit more space** because in addition to storing the actual data, you have to store the pointers.  (You have to hire building managers to keep track of where the next address is!)
-
-**It can take more time to access a full linked list,** because the data living in different places can't just be read as a continuous chunk.  You have to travel around the city to visit all of your buildings.
-
-
 
 ### Real-world Uses
 
