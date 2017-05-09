@@ -124,17 +124,17 @@ Take a look at the starter code for the node object type and the singly linked l
 
 Each node stores `data` and the `next` node.   The linked list stores its `head`, which is a  `Node`.   
 
-Take 5 minutes to make 2 observations each about `node.rb` and `singly_linked_list.rb`. Generate at least one question about this code.
+Take 5 minutes to make 2 observations each about `Node`, `List`, and the `List.prototype` code (JS) or `node.rb` and `singly_linked_list.rb` (Ruby). Generate at least one question about this code.
 
 ### Whiteboarding
 
-1. On the whiteboard, draw a diagram and write pseudocode for `insert_at_end data` or `insertAtEnd(data)`. When you've confirmed your pseudocode works for some sample input, try translating it into code on the whiteboard.
+1. On the whiteboard, draw a diagram and write pseudocode for `insertAt(data)` (JS) or `insert_at_end data` (Ruby). When you've confirmed your pseudocode works for some sample input, try translating it into code on the whiteboard.
 
-1. On the whiteboard, draw a diagram and write pseudocode for `delete data` or `delete(data)`. If you were working in a pair with one marker, switch who's "driving." When you've confirmed your pseudocode works for some sample input, try translating it into code on the whiteboard.
+1. On the whiteboard, draw a diagram and write pseudocode for `delete(data)` (JS) or `delete data` (Ruby). If you were working in a pair with one marker, switch who's "driving." When you've confirmed your pseudocode works for some sample input, try translating it into code on the whiteboard.
 
 ### Base Coding Challenges
 
-If you haven't yet, clone this repo.  Fill in the method stubs from singly_linked_list.rb to your heart's content!  Methods like `delete` and `middle_node` are reasonable interview questions.
+If you haven't yet, clone this repo.  Fill in the method stubs from `singly-linked-list-starter.js` or `singly_linked_list.rb` to your heart's content!  Methods like `delete` and `middle_node` are reasonable interview questions.
 
 
 ### Stretch Challenges
