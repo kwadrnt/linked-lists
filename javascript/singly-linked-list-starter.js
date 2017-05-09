@@ -1,4 +1,8 @@
-/* Node */
+/* 
+    Node 
+    Accepts two arguments, one data argument, of any data type
+    and one next argument, which must be another Node or null.
+*/
 var Node = function(data, next){
   this.data = data || null;
   this.next = next || null;
